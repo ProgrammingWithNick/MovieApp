@@ -1,50 +1,107 @@
-# Welcome to your Expo app 👋
+# 🎬 MovieApp
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app)
+![MovieApp Banner](./assets/images/banner.png)
 
-## Get started
+Welcome to **MovieApp**, a sleek and modern movie browsing application built with **React Native, Expo, and Tailwind CSS**. Discover trending movies, search for your favorites, and save them to your watchlist with a beautifully animated UI.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 🚀 Features
 
-2. Start the app
+✅ **Beautiful UI** with smooth animations ✨  
+✅ **Movie Details** with posters, ratings, and descriptions 🎥  
+✅ **Live Search** for finding movies instantly 🔍  
+✅ **Favorites Section** to save movies ❤️  
+✅ **Tab Navigation** for easy browsing 📲
 
-   ```bash
-    npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 📸 Preview
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+![App Preview](./assets/images/app-preview.png)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 📦 Installation
 
-When you're ready, run:
+Clone the repository and install dependencies:
 
 ```bash
-npm run reset-project
+# Clone the repo
+git clone https://github.com/yourusername/MovieApp.git
+
+# Navigate to project directory
+cd MovieApp
+
+# Install dependencies
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## ▶️ Running the App
 
-To learn more about developing your project with Expo, look at the following resources:
+Start the development server with:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```bash
+npx expo start
+```
 
-## Join the community
+Then choose an option:
 
-Join our community of developers creating universal apps.
+- Scan the QR code using **Expo Go** on your mobile 📱
+- Run on an **Android Emulator** 🏗️
+- Run on an **iOS Simulator** 🍏
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## 🛠️ Tech Stack
+
+- **React Native** - Mobile App Development
+- **Expo** - Fast and easy development
+- **Tailwind CSS** - Styling
+- **Framer Motion** - Smooth animations
+- **TMDB API** - Movie data
+
+---
+
+## 📄 Project Structure
+
+```
+MovieApp/
+│-- app/
+│   ├── (tabs)/
+│   │   ├── index.tsx
+│   │   ├── search.tsx
+│   │   ├── saved.tsx
+│   │   ├── profile.tsx
+│   ├── movies/[id].tsx
+│-- assets/
+│   ├── images/
+│   ├── icons/
+│-- constants/
+│-- components/
+│-- interfaces/
+│-- scripts/
+│-- package.json
+│-- app.json
+│-- tailwind.config.js
+```
+
+---
+
+## 📌 Contributing
+
+We welcome contributions! Feel free to **fork** this repository, make your changes, and submit a **pull request**.
+
+---
+
+## 📞 Contact
+
+📧 **Email:** nikhilkhavdu441@gmail.com  
+🐙 **GitHub:** [ProgrammingWithNick](https://github.com/ProgrammingWithNick)
+
+---
+
+⭐ **If you like this project, don't forget to star the repo!** ⭐
+
